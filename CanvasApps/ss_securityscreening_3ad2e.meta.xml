@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>ss_securityscreening_3ad2e</Name>
+  <AppVersion>2021-06-17T19:40:56Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.21061.19.0</CreatedByClientVersion>
+  <MinClientVersion>3.21061.19.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1851","primaryDeviceHeight":"806","sienaVersion":"677cf6b9-934b-42fa-8d1c-90ef9f7aa97a","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.21061.19","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>rgba(0, 176, 240, 1)</BackgroundColor>
+  <DisplayName>Security Screening Requests – Demandes de filtrage de sécurité</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"d8220d08-8337-4bff-ba1d-69afc7615ed9":{"id":"/providers/microsoft.powerapps/apis/shared_office365users","displayName":"Office 365 Users","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1472/1.0.1472.2427/office365users/icon.png","dataSources":["Office365Users"],"dependencies":[],"dependents":[],"parameterHints":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"}}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{"Security Applications":{"entitySetName":"ss_securityapplicationses","logicalName":"ss_securityapplications"},"Security Screening Languages":{"entitySetName":"ss_securityscreeninglanguages","logicalName":"ss_securityscreeninglanguage"},"Request Types":{"entitySetName":"ss_requesttypes","logicalName":"ss_requesttype"},"Level Requesteds":{"entitySetName":"ss_levelrequesteds","logicalName":"ss_levelrequested"},"NewOrExistingCandidates":{"entitySetName":"ss_neworexistingcandidates","logicalName":"ss_neworexistingcandidate"},"Form Previously Completeds":{"entitySetName":"ss_formpreviouslycompleteds","logicalName":"ss_formpreviouslycompleted"},"Position Types":{"entitySetName":"ss_positiontypes","logicalName":"ss_positiontype"},"Preferred Languages":{"entitySetName":"ss_preferredlanguages","logicalName":"ss_preferredlanguage"}}}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"ss_securityapplications","componenttype":1},{"logicalname":"ss_securityscreeninglanguage","componenttype":1},{"logicalname":"ss_requesttype","componenttype":1},{"logicalname":"ss_levelrequested","componenttype":1},{"logicalname":"ss_neworexistingcandidate","componenttype":1},{"logicalname":"ss_formpreviouslycompleted","componenttype":1},{"logicalname":"ss_positiontype","componenttype":1},{"logicalname":"ss_preferredlanguage","componenttype":1}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/ss_securityscreening_3ad2e_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/ss_securityscreening_3ad2e_DocumentUri.msapp</DocumentUri>
+</CanvasApp>

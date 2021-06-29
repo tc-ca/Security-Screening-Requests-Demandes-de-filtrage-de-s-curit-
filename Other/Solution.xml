@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.21054.128" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>SecurityScreening</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="SecurityScreening" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.6</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>SecurityScreeningPublisher</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Security Screening Publisher" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>ss</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>10000</CustomizationOptionValuePrefix>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="ss_formpreviouslycompleted" behavior="0" />
+      <RootComponent type="1" schemaName="ss_levelrequested" behavior="0" />
+      <RootComponent type="1" schemaName="ss_neworexistingcandidate" behavior="0" />
+      <RootComponent type="1" schemaName="ss_positiontype" behavior="0" />
+      <RootComponent type="1" schemaName="ss_preferredlanguage" behavior="0" />
+      <RootComponent type="1" schemaName="ss_requesttype" behavior="0" />
+      <RootComponent type="1" schemaName="ss_securityapplications" behavior="0" />
+      <RootComponent type="1" schemaName="ss_securityscreeninglanguage" behavior="0" />
+      <RootComponent type="29" id="{963886ee-e6ca-eb11-bacc-000d3a09c7a4}" behavior="0" />
+      <RootComponent type="29" id="{f988ecbb-37cd-eb11-bacc-0022486d7e2c}" behavior="0" />
+      <RootComponent type="300" schemaName="ss_securityscreening_3ad2e" behavior="0" />
+    </RootComponents>
+    <MissingDependencies />
+  </SolutionManifest>
+</ImportExportXml>
